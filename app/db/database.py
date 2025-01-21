@@ -14,6 +14,10 @@ SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 # Функция для получения сессии
 def get_db():
+    """
+    Заглушка
+    :return:
+    """
     db = SessionLocal()
     try:
         yield db

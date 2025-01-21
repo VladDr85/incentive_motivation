@@ -1,0 +1,4 @@
+[MASTER]
+disable=
+    C0114, # Missing module docstring (missing-module-docstring)
+    R0903, # Too few public methods (0/2) (too-few-public-methods)

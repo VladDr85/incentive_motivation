@@ -26,6 +26,10 @@ app.include_router(incentive.router, prefix="/incentives", tags=["incentives"])
 
 @app.get("/")
 async def root():
+    """
+    Заглушка
+    :return:
+    """
     return {"message": "Welcome to the Incentive Motivation API!"}
 
 if __name__ == "__main__":
